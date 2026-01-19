@@ -1,0 +1,15 @@
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.AssemblyInfoInputs.cache
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.AssemblyInfo.cs
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.csproj.CoreCompileInputs.cache
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.sourcelink.json
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\oefenenConsoleC#.exe
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\oefenenConsoleC#.deps.json
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\oefenenConsoleC#.runtimeconfig.json
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\oefenenConsoleC#.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\oefenenConsoleC#.pdb
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\refint\oefenenConsoleC#.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.pdb
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.genruntimeconfig.cache
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\ref\oefenenConsoleC#.dll
