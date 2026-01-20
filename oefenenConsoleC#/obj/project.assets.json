@@ -1,11 +1,75 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Figgle/0.6.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Figgle.Fonts/0.6.5": {
+        "type": "package",
+        "dependencies": {
+          "Figgle": "0.6.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Figgle.Fonts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.Fonts.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Figgle/0.6.5": {
+      "sha512": "8Z1qvgyDFvqeQB+b/qpp083N5O/1UNEVKpI2TsWD+tM7Ev388VccPysMxre6jeAy7h4m6L6LrguPGmnOh8+ZGA==",
+      "type": "package",
+      "path": "figgle/0.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "figgle.0.6.5.nupkg.sha512",
+        "figgle.nuspec",
+        "lib/netstandard2.0/Figgle.dll",
+        "lib/netstandard2.0/Figgle.xml",
+        "logo-square-256px.png"
+      ]
+    },
+    "Figgle.Fonts/0.6.5": {
+      "sha512": "AFGGUXBF/u44qOww7Zyro0pwhuq7uuZA68N/y1z6GHd+CRj6pWpGHMc7/+XyjZwgJFi3as4diEG/EULOmQAkPQ==",
+      "type": "package",
+      "path": "figgle.fonts/0.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "figgle.fonts.0.6.5.nupkg.sha512",
+        "figgle.fonts.nuspec",
+        "lib/netstandard2.0/Figgle.Fonts.dll",
+        "lib/netstandard2.0/Figgle.Fonts.xml",
+        "logo-square-256px.png"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Figgle >= 0.6.5",
+      "Figgle.Fonts >= 0.6.5"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Fabri\\.nuget\\packages\\": {}
@@ -51,6 +115,16 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Figgle": {
+            "target": "Package",
+            "version": "[0.6.5, )"
+          },
+          "Figgle.Fonts": {
+            "target": "Package",
+            "version": "[0.6.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

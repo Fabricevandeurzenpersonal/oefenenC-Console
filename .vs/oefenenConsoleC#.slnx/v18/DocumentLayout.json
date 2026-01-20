@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\wamp64\\www\\oefenenConsoleC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|c:\\wamp64\\www\\oefenenconsolec#\\oefenenconsolec#\\digitalpet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|solutionrelative:oefenenconsolec#\\digitalpet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|c:\\wamp64\\www\\oefenenconsolec#\\oefenenconsolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|solutionrelative:oefenenconsolec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|c:\\wamp64\\www\\oefenenconsolec#\\oefenenconsolec#\\models\\digitalpet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887EF254-DC9B-025D-730A-00CB65E837FB}|oefenenConsoleC#\\oefenenConsoleC#.csproj|solutionrelative:oefenenconsolec#\\models\\digitalpet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DigitalPet.cs",
-              "DocumentMoniker": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\DigitalPet.cs",
-              "RelativeDocumentMoniker": "oefenenConsoleC#\\DigitalPet.cs",
-              "ToolTip": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\DigitalPet.cs",
-              "RelativeToolTip": "oefenenConsoleC#\\DigitalPet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\models\\DigitalPet.cs",
+              "RelativeDocumentMoniker": "oefenenConsoleC#\\models\\DigitalPet.cs",
+              "ToolTip": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\models\\DigitalPet.cs",
+              "RelativeToolTip": "oefenenConsoleC#\\models\\DigitalPet.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:48:09.826Z",
+              "WhenOpened": "2026-01-20T13:55:27.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\Program.cs",
               "RelativeDocumentMoniker": "oefenenConsoleC#\\Program.cs",
               "ToolTip": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\Program.cs",
               "RelativeToolTip": "oefenenConsoleC#\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:44:26.014Z",
+              "WhenOpened": "2026-01-20T13:55:27.969Z",
               "EditorCaption": ""
             }
           ]

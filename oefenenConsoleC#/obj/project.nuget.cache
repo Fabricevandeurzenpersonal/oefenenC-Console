@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cihG711Mn4I=",
+  "dgSpecHash": "/yBs3F+KnZs=",
   "success": true,
   "projectFilePath": "C:\\wamp64\\www\\oefenenConsoleC#\\oefenenConsoleC#\\oefenenConsoleC#.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Fabri\\.nuget\\packages\\figgle\\0.6.5\\figgle.0.6.5.nupkg.sha512",
+    "C:\\Users\\Fabri\\.nuget\\packages\\figgle.fonts\\0.6.5\\figgle.fonts.0.6.5.nupkg.sha512"
+  ],
   "logs": []
 }

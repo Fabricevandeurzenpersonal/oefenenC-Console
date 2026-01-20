@@ -13,3 +13,7 @@ C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\refint\oefenen
 C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.pdb
 C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.genruntimeconfig.cache
 C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\ref\oefenenConsoleC#.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\Figgle.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\bin\Debug\net10.0\Figgle.Fonts.dll
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenConsoleC#.csproj.AssemblyReference.cache
+C:\wamp64\www\oefenenConsoleC#\oefenenConsoleC#\obj\Debug\net10.0\oefenenC.EDD1247D.Up2Date
