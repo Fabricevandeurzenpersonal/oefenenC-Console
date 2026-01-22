@@ -41,10 +41,10 @@ namespace Tamagotchi.models;
 
 class DigitalPet
 {
-    public string Name { get; set; }
-    public int Energy { get; set; }
-    public int Hunger { get; set; }
-    public bool IsSleeping { get; set; }
+    public string Name { get; private set; }
+    public int Energy { get; private set; }
+    public int Hunger { get; private set; }
+    public bool IsSleeping { get; private set; }
 
 
     public DigitalPet(string name, int energy = 50, int hunger = 0, bool isSleeping = false)
@@ -53,13 +53,26 @@ class DigitalPet
         this.Energy = energy;
         this.Hunger = hunger;
         this.IsSleeping = isSleeping;
-    }  
+    }
     public string Sleep()
     {
         this.IsSleeping = true;
         this.Energy += 20;
 
-       
+        
+        UpdateStatus();
+
         return "Zzz... Dat deed deugd! (+20 Energie)";
+    }
+
+   
+    public void UpdateStatus()
+    {
+        
+        this.Hunger += 5;
+    }
+    public void Rename(string newName)
+    {
+        this.Name = newName;
     }
 }

@@ -34,21 +34,31 @@ string banner = FiggleFonts.Standard.Render("Tamagotchi");
 
 Console.WriteLine(banner);
 
-DigitalPet dino = new DigitalPet("Rex");
-Console.WriteLine("Welkom bij " + dino.Name);
+List<DigitalPet> pets = new List<DigitalPet>();
 
+Console.Write("Voer de naam van je huisdier in (of druk op ENTER om te stoppen): ");
 
-DigitalPet fluffy = new DigitalPet("Fluffy");
-Console.WriteLine("welkom bij " + fluffy.Name);
+while (true)
+{
+    Console.Write("\nNaam huisdier: ");
+    string? input = Console.ReadLine();
+    if (string.IsNullOrWhiteSpace(input))
+    {
+        Console.WriteLine("Geen naam ingevoerd, stoppen met toevoegen van huisdieren.");
+        break;
+    }
+    pets.Add(new DigitalPet(input));
 
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.Write($"\n--- Huidige dieren in opvang({pets.Count})---");
 
-Food apple = new Food("Appel", 10);
+    foreach (DigitalPet pet in pets)
+    {
+        Console.Write($"-\nNaam: {pet.Name} Energie: {pet.Energy}");
 
-Console.WriteLine("We hebben een dier: " + dino.Name);
-Console.WriteLine("En we hebben eten: " + apple.Name);
-
-Console.WriteLine("Het wordt laat...");
-
-
-Console.WriteLine(dino.Sleep());
+    }
+    Console.ResetColor();
+    Console.WriteLine("\n--------------------------------");
+}
+Console.WriteLine("\nBedankt voor het gebruik!");
 Console.ReadLine();
