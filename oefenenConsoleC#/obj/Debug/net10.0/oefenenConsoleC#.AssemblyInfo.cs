@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("oefenenConsoleC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86d16a58c7bc9af74e1987c67a30541d9de22a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7889cb7483b02cdd314d73377f97bae845439345")]
 [assembly: System.Reflection.AssemblyProductAttribute("oefenenConsoleC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("oefenenConsoleC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

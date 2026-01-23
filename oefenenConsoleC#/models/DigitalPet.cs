@@ -1,78 +1,69 @@
-﻿//class DigitalPet
-//{
-//    public string Name { get; set; }
-//    public int Energy { get; set; }
+﻿using Tamagotchi.Models;
 
-//    public
-//    DigitalPet(string name)
-//    {
-//        this.Name = name; // Naam bij aanmaak
-//        this.Energy = 50; // Standaard energie bij aanmaak
-//    }
-//    public void SetEnergy(int amount)
-//    {
-//        if (amount < 0)
-//        {
-//            Console.WriteLine("Foutje! Energie mag niet negatief zijn");
-//            Console.WriteLine("We zetten de energie op 0.");
-//            this.Energy = 0;
-//        }
-//        else if (amount > 100)
-//        {
-//            Console.WriteLine("Wow, dat is veel! Maximaal 100.");
-//            this.Energy = 100;
-//        }
-//        else
-//        {
-//            this.Energy = amount;
-//        }
-//    }
-//    public string EnergyDisplay()
-//    {
-//        return "🔋 " + this.Name + " - Level: " + this.Energy + "/100";
-//    }
-
-//    //public string GetDescription()
-//    //{
-//    //    return "ik ben " + this.Name + " en ik heb " + this.Energy + " energie";
-//    //}
-//}
-namespace Tamagotchi.models;
-
-class DigitalPet
+namespace Tamagotchi.models
 {
-    public string Name { get; private set; }
-    public int Energy { get; private set; }
-    public int Hunger { get; private set; }
-    public bool IsSleeping { get; private set; }
-
-
-    public DigitalPet(string name, int energy = 50, int hunger = 0, bool isSleeping = false)
+    public class DigitalPet
     {
-        this.Name = name;
-        this.Energy = energy;
-        this.Hunger = hunger;
-        this.IsSleeping = isSleeping;
-    }
-    public string Sleep()
-    {
-        this.IsSleeping = true;
-        this.Energy += 20;
+        public string Name { get; private set; }
+        public int Energy { get; private set; }
+        public int Hunger { get; private set; }
+        public bool IsSleeping { get; private set; }
+
+        public DigitalPet(string name, int energy = 50, int hunger = 0, bool isSleeping = false)
+        {
+            this.Name = name;
+            this.Energy = energy;
+            this.Hunger = hunger;
+            this.IsSleeping = isSleeping;
+        }
 
         
-        UpdateStatus();
+        public string EnergyDisplay()
+        {
+            return $"🔋 {this.Name} - Energie: {this.Energy}/100 | Honger: {this.Hunger}/100";
+        }
 
-        return "Zzz... Dat deed deugd! (+20 Energie)";
-    }
+       
+        public string Sleep()
+        {
+            this.IsSleeping = true;
+            this.Energy += 20;
 
-   
-    public void UpdateStatus()
-    {
+            if (this.Energy > 100)
+                this.Energy = 100;
+
+            UpdateStatus();
+            return "Zzz... Dat deed deugd! (+20 Energie)";
+        }
+
+       
+        public void UpdateStatus()
+        {
+            this.Hunger += 5;
+
+            if (this.Hunger > 100)
+                this.Hunger = 100;
+        }
+
         
-        this.Hunger += 5;
-    }
-    public void Rename(string newName)
-    {
-        this.Name = newName;
+        public void Rename(string newName)
+        {
+            this.Name = newName;
+        }
+
+        
+        public string Feed(Food food)
+        {
+            this.Energy += food.EnergyGain;
+            this.Hunger -= 10;
+
+            if (this.Energy > 100)
+                this.Energy = 100;
+
+            if (this.Hunger < 0)
+                this.Hunger = 0;
+
+            return $"{this.Name} at een {food.Name}. (+{food.EnergyGain} Energie)";
+        }
     }
 }

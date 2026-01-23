@@ -30,4 +30,21 @@ public class Menu
         Console.WriteLine("Q. Stoppen");
         Console.Write("Maak een keuze:");
     }
+    public int AskInt(string question)
+    {
+        Console.Write(question + " ");
+        
+       if(int.TryParse(Console.ReadLine(), out int result))
+           return result;
+        return 50;
+      
+    }
+
+    public void ShowPetMenu(string name, int energy, int hunger)
+    {
+        Console.WriteLine($"\n--- MENU: {name} ---");
+        Console.WriteLine($"Energie: {energy} | Honger: {hunger}");
+        Console.WriteLine("1. Voeren");
+        Console.WriteLine("0. Terug (Uitloggen)");
+    }
 }
